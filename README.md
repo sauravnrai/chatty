@@ -5,8 +5,23 @@
 
 Chatty is a chat application built using Spring Boot and Websocket. The application allows multiple users to chat simultaneously while keeping all the messages in a message broker. There is no upper limit on how many users can be in the chat room, but it is recommended that at least 2 users be present at any given time. Any user can log in and out of the chat room anytime. The project can be extended by adding additional features like a message timer restricting how long a user should wait before sending their next message, emojis, storing messages based on sessions, etc. This was a simple but effective implementation to understand how chatting applications work in real time. We have used Java, javascript, jQuery, bootstrap, sockjs, WebSockets, and stomp protocol. 
 
-![Image Alt](https://github.com/sauravnrai/Chatty/blob/master/login%20page.png?raw=true)
-![Image Alt](https://github.com/sauravnrai/Chatty/blob/master/Chat%20room.png?raw=true)
+## Accessibility & Theme Standards
+
+Chatty uses a consistent light-mode palette:
+
+- **Primary background:** `#FFFFFF`.
+- **Secondary cards and containers:** `#F8FAFC`.
+- **Primary text:** `#0F172A`; secondary text, placeholders, and borders use `#334155`.
+- **Primary accent:** `#2563EB`, with `#FFFFFF` primary-button text.
+
+All tested text color pairs meet the WCAG AA **4.5:1 minimum contrast** requirement: white on blue is **5.17:1**, and blue on off-white is **4.94:1**. Preserve readable placeholder and disabled-control text, visible keyboard focus, labeled inputs, and light surfaces in every interaction state. Contrast passing alone is not a full WCAG accessibility certification; see the [UI & Contrast Audit](docs/UI_CONTRAST_AUDIT.md) for test coverage and outstanding manual checks.
+
+### Historical screenshots
+
+The screenshots below show the original interface, before the light-theme refresh.
+
+![Original login view (before the light-theme refresh)](https://github.com/sauravnrai/Chatty/blob/master/login%20page.png?raw=true)
+![Original chat-room view (before the light-theme refresh)](https://github.com/sauravnrai/Chatty/blob/master/Chat%20room.png?raw=true)
 
 
 ## Why WebSockets?
