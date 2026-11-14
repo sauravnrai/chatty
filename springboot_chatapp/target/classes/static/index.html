@@ -3,124 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Room</title>
-
-    <!--- Adding css and javascript --->
+    <meta name="color-scheme" content="light">
+    <title>Chatty | Clear, accessible conversation</title>
     <link rel="stylesheet" href="/style.css">
-
-
-<!-- Loading bootstrap, jquery, sockjs, and stomp-websocket in the same order. changing order will cause errors-->
-
-<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="/webjars/jquery/jquery.min.js"></script>
-<script src="/webjars/sockjs-client/sockjs.min.js"></script>
-<script src="/webjars/stomp-websocket/stomp.min.js"></script>
-
-
-
-<!-- Jquery is needed to be loaded first before the script-->>
-    <script src="/script1.js"></script>
-
-    
-
-
-
-
-
+    <script defer src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script defer src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script defer src="/script1.js"></script>
 </head>
-<body class="bg-primary">
-    
-    <div id="name-form" class="bg-primary d-flex align-items-center justify-content-center">
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <a class="brand" href="/" aria-label="Chatty home">Chatty</a>
+        <p>Simple, accessible conversation</p>
+    </header>
 
-        <div class="container-fluid">
-
-            <div class="row">
-
-            </div>
-
-             <div class="col-md-4 offset-md-4"> <!-- column has 4 Grids at the center -->
-
-                <div class="input-group">
- 
-                    <!--Input field that has name-value key-pair to fetch and a button at side using input-group-append -->
-                    <input type="text" placeholder="Enter Your Name" id="name-value" autofocus class= "form-control">
-                    <div class="input-group-append">
-                        <button class="btn btn-dark" id="login">Enter</button>
-                    </div>
-
+    <main id="main-content" class="app-shell" tabindex="-1">
+        <section id="name-form" class="card login-panel" aria-labelledby="login-title">
+            <p class="eyebrow">A space to connect</p>
+            <h1 id="login-title">Welcome to Chatty</h1>
+            <p class="secondary-text">Join the shared room and start a conversation.</p>
+            <form id="login-form" novalidate>
+                <label class="field-label" for="name-value">Your name</label>
+                <p id="name-help" class="help-text">Choose a display name, up to 80 characters.</p>
+                <div class="input-row">
+                    <input class="text-input" id="name-value" name="name" type="text"
+                           autocomplete="nickname" maxlength="80" required
+                           placeholder="Enter your name" aria-describedby="name-help login-error">
+                    <button class="button" id="login" type="submit">Enter chat</button>
                 </div>
+                <p id="login-status" class="help-text" role="status"></p>
+                <p id="login-error" class="feedback" role="alert" hidden></p>
+            </form>
+        </section>
 
+        <section id="chat-room" class="chat-layout" aria-labelledby="chat-title" hidden>
+            <header class="chat-header">
+                <div>
+                    <p class="eyebrow">Shared room</p>
+                    <h1 id="chat-title">Welcome to Chatty</h1>
+                    <p id="name-title" class="secondary-text"></p>
+                </div>
+                <button class="button button-secondary" id="logout" type="button">Log out</button>
+            </header>
 
-             </div>
-        </div>
-
-
-    </div>
-
-
-
-
- <!-- After enterring the details, this infromation will be displayed i.e Chat room  -->   
-<div id="chat-room" class="d-none">
-<h1 style="text-align: center;">Welcome to chatty!</h1>
-</div>
-
-<div class="container-fluid">
-
-    <div class="row">
-
-        <div class="col-md-6 offset-md-3">
-
-
-            <div class="card mt-3">
-
-                <h3 id="nmae-title"></h3>
-
+            <div class="card chat-panel">
                 <div class="card-header">
-
-
+                    <h2 id="messages-title">Conversation</h2>
+                    <p id="connection-status" class="help-text" role="status">Not connected</p>
                 </div>
-
-
-
-                <div class="card-body">
-
-                    <div class="input-group">
- 
-                        <!--Input field that has name-value key-pair to fetch and a button at side using input-group-append -->
-                        <input type="text" placeholder="Enter Your Message" id="message-value" autofocus class= "form-control">
-                        <div class="input-group-append">
-                            <button class="btn btn-dark" id="send-btn">Send</button>
-                            <button class="btn btn-dark" id="logout">Logout</button>
-
-                        </div>
-    
+                <div id="message-log" class="message-log" role="log" aria-labelledby="messages-title"
+                     aria-live="polite" aria-relevant="additions" tabindex="0">
+                    <p id="empty-state" class="empty-state">No messages yet. Start the conversation below.</p>
+                    <ol id="message-list" class="message-list"></ol>
+                </div>
+                <form id="message-form" class="composer" novalidate>
+                    <label class="field-label" for="message-value">Your message</label>
+                    <p id="message-help" class="help-text">Press Enter or use Send. Up to 2,000 characters.</p>
+                    <div class="input-row">
+                        <input class="text-input" id="message-value" name="message" type="text"
+                               autocomplete="off" maxlength="2000" required placeholder="Write a message"
+                               aria-describedby="message-help message-error">
+                        <button class="button" id="send-btn" type="submit">Send</button>
                     </div>
-
-
-            <div class="table-responsive">
-
-                <table id="message-container-table">
-
-            
-
-
-                </table>
+                    <p id="message-error" class="feedback" role="alert" hidden></p>
+                </form>
             </div>
-
-
-
-                </div>
-            </div>
-        
-        </div>
-
-    </div>
-
-    
-</div>
-
-
-
+        </section>
+        <noscript><p class="feedback">JavaScript is required to join the chat room.</p></noscript>
+    </main>
+    <footer class="site-footer">Built for clear conversations.</footer>
 </body>
 </html>
