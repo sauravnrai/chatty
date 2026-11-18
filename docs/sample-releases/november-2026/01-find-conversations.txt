@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Find past conversations quickly
+Release category: New Features
+
+Sample only — Search conversations by a word or phrase to find the answer you need without scrolling through the whole discussion.
+
+Who benefits: People who regularly revisit past conversations.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
