@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Give each conversation a clear owner
+Category: Everyday Workflow Upgrades
+
+Imagined benefit: Choose who will handle a conversation so the team knows who should respond next.
+
+This practice description does not add a feature or change how Chatty works. Keep the earlier November samples and real pull request #1 separate and unchanged.
