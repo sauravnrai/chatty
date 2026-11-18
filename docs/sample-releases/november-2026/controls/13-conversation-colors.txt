@@ -1,0 +1,8 @@
+SAMPLE ONLY — EXCLUDED UNMERGED CONTROL
+
+Choose a conversation color
+Release category: New Features
+
+Imagined benefit — Give conversations different colors to spot the one you want more easily.
+
+This practice example must stay unmerged and must not be included in the twelve November sample release notes. It checks that unfinished examples are excluded. It does not add this feature or change how Chatty works. It is not a promise of availability. Use the actual dates only; no older date is being claimed.
