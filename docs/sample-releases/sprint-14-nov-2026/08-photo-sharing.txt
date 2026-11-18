@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Share photos with fewer interruptions
+Category: Speed & Reliability Enhancements
+
+Imagined benefit: Continue a photo upload after a brief connection interruption and see clearly whether it has finished.
+
+This practice description does not add a feature or change how Chatty works. No reliability measurements are claimed. Keep the earlier November samples and real pull request #1 separate and unchanged.
