@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Choose quieter notifications
+Release category: Workflow Improvements
+
+Sample only — Quiet a busy conversation when you need to focus, then catch up when it suits you.
+
+Who benefits: People balancing focused work and busy group conversations.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
