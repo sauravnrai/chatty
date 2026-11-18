@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Keep unsent messages when switching conversations
+Release category: Customer-Requested Fixes
+
+Sample only — Keep the message you are writing when you switch conversations, so you can return and finish without starting again.
+
+Who benefits: People moving between several conversations.
+
+This is a practice release description. It does not add this feature or change how Chatty works. The customer request is an imagined example, not a verified support request. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
