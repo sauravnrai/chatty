@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Resume an unfinished reply after reconnecting
+Category: Speed & Reliability Enhancements
+
+Imagined benefit: Return to an unfinished reply after a brief loss of connection without retyping it.
+
+This practice description does not add a feature or change how Chatty works. It is separate from the earlier monthly example about switching conversations. Keep the earlier November samples and real pull request #1 separate and unchanged.
