@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Find older messages with less waiting
+Category: Speed & Reliability Enhancements
+
+Imagined benefit: See older-message search results with less waiting when revisiting past decisions.
+
+This practice description does not add a feature or change how Chatty works. No speed measurements are claimed. Keep the earlier November samples and real pull request #1 separate and unchanged.
