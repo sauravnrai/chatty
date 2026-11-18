@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+See an accurate unread-message count
+Category: Customer-Reported Fixes
+
+Imagined benefit: Remove already-read messages from the unread count so people can see what still needs attention.
+
+This practice description does not add a feature or change how Chatty works. The customer report is imagined, not a verified support request. Keep the earlier November samples and real pull request #1 separate and unchanged.
