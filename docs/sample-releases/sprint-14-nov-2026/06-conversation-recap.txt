@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Share a quick conversation recap
+Category: Everyday Workflow Upgrades
+
+Imagined benefit: Write a short recap of decisions and next steps for teammates joining a conversation later.
+
+This practice description does not add a feature or change how Chatty works. The example is a recap written by a person, not a promise of automatic summaries. Keep the earlier November samples and real pull request #1 separate and unchanged.
