@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Keep notification choices after signing back in
+Category: Customer-Reported Fixes
+
+Imagined benefit: Keep chosen quiet conversations quiet after signing out and back in, without setting preferences again.
+
+This practice description does not add a feature or change how Chatty works. The customer report is imagined, not a verified support request. Keep the earlier November samples and real pull request #1 separate and unchanged.
