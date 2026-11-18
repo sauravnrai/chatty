@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Keep important messages close
+Release category: New Features
+
+Sample only — Keep key messages at the top of a conversation so everyone can quickly find decisions, links, and next steps.
+
+Who benefits: Teams sharing decisions and useful resources.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
