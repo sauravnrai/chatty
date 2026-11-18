@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Read long messages comfortably on your phone
+Release category: Customer-Requested Fixes
+
+Sample only — Keep long messages and shared links within your phone screen so you can read them without moving the page sideways.
+
+Who benefits: People reading conversations on a phone.
+
+This is a practice release description. It does not add this feature or change how Chatty works. The customer request is an imagined example, not a verified support request. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
