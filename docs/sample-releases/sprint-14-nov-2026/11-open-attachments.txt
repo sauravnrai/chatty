@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — NOT A PRODUCT RELEASE
+
+Open shared attachments consistently
+Category: Customer-Reported Fixes
+
+Imagined benefit: Open an available shared attachment on the first attempt instead of repeatedly trying the same link.
+
+This practice description does not add a feature or change how Chatty works. The customer report is imagined, not a verified support request. Keep the earlier November samples and real pull request #1 separate and unchanged.
