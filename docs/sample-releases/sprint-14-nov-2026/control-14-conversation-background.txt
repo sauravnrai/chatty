@@ -1,0 +1,8 @@
+SPRINT 14 SAMPLE WALKTHROUGH ONLY — EXCLUDED OPEN CARRYOVER EXAMPLE
+
+Choose a conversation background
+Category: New Capabilities
+
+Imagined benefit: Give a conversation a recognizable background to spot it more easily.
+
+This practice description does not add a feature or change how Chatty works. Leave this pull request open and unmerged. Exclude it from the twelve Sprint 14 release notes and mapping rows. This checks exclusion of unmerged work, not the start-date boundary. Keep earlier samples and real pull request #1 unchanged.
