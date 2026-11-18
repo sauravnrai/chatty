@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Send each message just once
+Release category: Customer-Requested Fixes
+
+Sample only — Avoid posting the same message twice after an extra tap on Send, keeping the conversation clear for everyone.
+
+Who benefits: People who sometimes tap Send more than once.
+
+This is a practice release description. It does not add this feature or change how Chatty works. The customer request is an imagined example, not a verified support request. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
