@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Keep related replies together
+Release category: Workflow Improvements
+
+Sample only — Keep replies beside the message they discuss so separate topics are easier to follow and fewer details get lost.
+
+Who benefits: Teams discussing several topics at once.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
