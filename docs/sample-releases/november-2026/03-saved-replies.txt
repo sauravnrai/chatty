@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Save replies you use often
+Release category: New Features
+
+Sample only — Save commonly used replies and reuse them in a conversation to answer familiar questions with less typing.
+
+Who benefits: Support teams and people answering repeated questions.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
