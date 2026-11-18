@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Pick up where you left off
+Release category: Workflow Improvements
+
+Sample only — Return to your first unread message so you can catch up in order without searching for where you stopped.
+
+Who benefits: People catching up after time away.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
