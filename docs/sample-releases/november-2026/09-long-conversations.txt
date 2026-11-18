@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Move smoothly through long conversations
+Release category: Performance & Reliability
+
+Sample only — Browse a long conversation with fewer pauses, making it easier to review earlier messages and return to the latest discussion.
+
+Who benefits: People reviewing lengthy conversation histories.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. No speed measurements or availability claims are being made.
