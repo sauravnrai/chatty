@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Open busy conversations sooner
+Release category: Performance & Reliability
+
+Sample only — Reach the latest messages with less waiting when opening a busy conversation, so you can get to the discussion sooner.
+
+Who benefits: People working in busy team conversations.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. No speed measurements or availability claims are being made.
