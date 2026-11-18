@@ -1,0 +1,10 @@
+SAMPLE ONLY — NOT A SHIPPED FEATURE
+
+Keep your place after a brief interruption
+Release category: Performance & Reliability
+
+Sample only — Return to the same place in a conversation after a brief loss of connection, with a clear message when you can continue.
+
+Who benefits: People working with an unreliable internet connection.
+
+This is a practice release description. It does not add this feature or change how Chatty works. Use it only to review release notes and an unsent announcement. It is not a promise of availability.
